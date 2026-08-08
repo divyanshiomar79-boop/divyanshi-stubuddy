@@ -1,0 +1,50 @@
+{
+  "user": {
+    "name": "Divyanshi",
+    "profileComplete": true,
+    "avatar": null
+  },
+  "streak": {
+    "current": 12,
+    "best": 23,
+    "freezeTokens": 1
+  },
+  "progress": {
+    "currentDay": 12,
+    "totalDays": 60,
+    "completedDays": 12,
+    "completionPercent": 20,
+    "missedDay": false
+  },
+  "todayTask": {
+    "day": 12,
+    "title": "Build a Binary Search Tree",
+    "description": "Implement a Binary Search Tree (BST) class with insert, search, and in-order traversal methods. Your solution should handle edge cases like duplicate values and empty trees. Use any language you prefer, but include clear README instructions.",
+    "completed": false
+  },
+  "achievements": [
+    { "id": "streak-7", "name": "7 Day Streak", "earned": true },
+    { "id": "first-commit", "name": "First Commit", "earned": true },
+    { "id": "sharer", "name": "Public Builder", "earned": false }
+  ],
+  "dailyQuote": {
+    "text": "Consistency beats intensity every time.",
+    "author": "AB TALKS Mentor"
+  },
+  "quickLinks": [
+    { "label": "View All Tasks", "path": "/assignment/day/12" },
+    { "label": "Submit Proof", "path": "/assignment/day/12" }
+  ],
+  "scenarios": {
+    "zeroStreak": {
+      "streak": { "current": 0, "best": 0, "freezeTokens": 1 },
+      "progress": { "currentDay": 1, "totalDays": 60, "completedDays": 0, "completionPercent": 0, "missedDay": false }
+    },
+    "missedDay": {
+      "progress": { "currentDay": 12, "totalDays": 60, "completedDays": 11, "completionPercent": 18, "missedDay": true }
+    },
+    "emptyProfile": {
+      "user": { "name": "", "profileComplete": false, "avatar": null }
+    }
+  }
+}
